@@ -1,8 +1,8 @@
 #Source Project is based off of 
 https://github.com/HackerHouseYT/Smart-Mirror
 
-# Smart-Mirror
-Raspberry powered mirror which can display the news, weather, and time.
+# Weather Tracker project
+This is an example program about how to use API's to make requests
 
 ## Installation and Updating
 ### Code
@@ -43,6 +43,7 @@ nano WeatherTracker.py
 ```
 
 replace `weather_api_token` with the token you got from forecast.io
+change `Latitude` and `longitude` to the ones specified on your Dark Skys account
 
 ## Running
 To run the application run the following command in this folder
