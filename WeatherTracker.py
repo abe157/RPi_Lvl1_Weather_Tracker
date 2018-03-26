@@ -32,13 +32,14 @@ time_format = 12 # 12 or 24
 date_format = "%b %d, %Y" # check python doc for strftime() for options
 news_country_code = 'us'
 # WEATHER: account from https://darksky.net/ 
-weather_api_token = '7d1611b46723c93de239aab1676c7129' 
+weather_api_token = '' 
 weather_lang = 'en' 
 weather_unit = 'us'
 # Set this if IP location lookup does not work for you (must be a string)
 # Set this if IP location lookup does not work for you (must be a string)
 latitude = '37.8267'
 longitude = '-76.731916'
+# Feel Free to play around with different text sizes
 xlarge_text_size = 40#94
 large_text_size = 30#48
 medium_text_size = 20#28

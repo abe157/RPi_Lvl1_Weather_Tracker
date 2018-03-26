@@ -1,4 +1,4 @@
-#Source
+#Source Project is based off of 
 https://github.com/HackerHouseYT/Smart-Mirror
 
 # Smart-Mirror
@@ -17,7 +17,7 @@ git clone https://github.com/abe157/RPi_Lvl1_Weather_Tracker.git
 Navigate to the folder for the repository
 
 ```
-cd Smart-Mirror
+cd RPi_Lvl1_Weather_Tracker
 ```
 
 ### Install your dependencies 
@@ -31,12 +31,15 @@ sudo pip install -r requirements.txt
 sudo apt-get install python-imaging-tk
 ```
 
+## API Weather Service
+### Register
+First thing is to create a new [Dark Sky API](darksky.net/dev/account) account where your program will be pulling weather information from 
+
 ### Add your api token
-Make sure vim is installed on your system: `sudo apt-get install vim`
-Use `vim` to edit you file
+Use your favorite editor to edit `WeatherTracker.py` but by default, most systems have `nano` editor. Use your editor to edit the file
 
 ```
-vim smartmirror.py
+nano WeatherTracker.py
 ```
 
 replace `weather_api_token` with the token you got from forecast.io
@@ -45,9 +48,6 @@ replace `weather_api_token` with the token you got from forecast.io
 To run the application run the following command in this folder
 
 ```
-python smartmirror.py
+python WeatherTracker.py
 ```
 
-## Demo and Build Instructions 
-(click image for link to video)
-[![Link to youtube how-to video](http://i.imgur.com/cMyaSHT.png)](https://youtu.be/fkVBAcvbrjU)
