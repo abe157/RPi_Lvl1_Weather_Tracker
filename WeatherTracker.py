@@ -37,8 +37,8 @@ weather_lang = 'en'
 weather_unit = 'us'
 # Set this if IP location lookup does not work for you (must be a string)
 # Set this if IP location lookup does not work for you (must be a string)
-latitude = '37.8267'
-longitude = '-76.731916'
+latitude = ''
+longitude = ''
 # Feel Free to play around with different text sizes
 xlarge_text_size = 40#94
 large_text_size = 30#48
