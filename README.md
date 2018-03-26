@@ -28,6 +28,10 @@ sudo pip install -r requirements.txt
 ```
 
 ```
+sudo pip install --upgrade google-api-python-client
+```
+
+```
 sudo apt-get install python-imaging-tk
 ```
 
