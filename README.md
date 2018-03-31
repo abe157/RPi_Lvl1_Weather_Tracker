@@ -37,7 +37,7 @@ sudo apt-get install python-imaging-tk
 
 ## API Weather Service
 ### Register
-First thing is to create a new [Dark Sky API](darksky.net/dev/account) account where your program will be pulling weather information from 
+First thing is to create a new on a laptop or desktop with [Dark Sky API](darksky.net) account where your program will be pulling weather information from. There you will get a secret key and your latitude and longitude coordinates. 
 
 ### Add your api token
 Use your favorite editor to edit `WeatherTracker.py` but by default, most systems have `nano` editor. Use your editor to edit the file
